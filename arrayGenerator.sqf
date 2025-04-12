@@ -28,3 +28,4 @@ _copyString =
 	"C5R_crates = createHashMapFromArray " + (str _crateArray)+ ";"
 ;
 copyToClipboard _copyString;
+hint "New ItemCfg.sqf contents copied to clipboard";
