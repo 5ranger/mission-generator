@@ -1,0 +1,1 @@
+player addAction ["Generate arsenal config and copy to clipboard (paste in template itemCfg.sqf)",{execVM "arrayGenerator.sqf";}];
