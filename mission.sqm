@@ -12,18 +12,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=16;
+		nextID=18;
 	};
 	class Camera
 	{
-		pos[]={4345.4321,21.891155,6605.7534};
-		dir[]={0.0043395469,-0.61661261,0.78725845};
-		up[]={0.003398851,0.78726476,0.61660528};
-		aside[]={0.99998796,-3.9361112e-08,-0.0055120252};
+		pos[]={4347.874,18.868832,6609.8789};
+		dir[]={-0.014665566,-0.59685493,0.80229068};
+		up[]={-0.010910156,0.80232352,0.59678441};
+		aside[]={0.99989021,-4.4974149e-07,0.018273955};
 	};
 };
 binarizationWanted=0;
-sourceName="5R-2025-02-26-ItemCfgArrayGenerator";
+sourceName="git-mission-generator";
 addons[]=
 {
 	"A3_Characters_F",
@@ -34,7 +34,6 @@ addons[]=
 	"ace_parachute",
 	"tfar_handhelds",
 	"A3_Drones_F_Weapons_F_Gamma_Items",
-	"Virtus_Helmet",
 	"5r_headgear",
 	"UK3CB_BAF_Equipment_Uniforms",
 	"kat_pharma",
@@ -42,7 +41,7 @@ addons[]=
 	"kat_breathing",
 	"kat_airway",
 	"cTab",
-	"Virtus_1DRS",
+	"5r_vests",
 	"ace_realisticnames",
 	"ace_captives",
 	"ace_maptools",
@@ -54,7 +53,6 @@ addons[]=
 	"A3_Weapons_F_Mark",
 	"krh_addons_equipment",
 	"ace_flashlights",
-	"mpx_Outfits_Vest",
 	"A3_Weapons_F_Items",
 	"ace_arsenal",
 	"UK3CB_BAF_Weapons_L131A1",
@@ -88,7 +86,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=54;
+		items=51;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -142,307 +140,292 @@ class AddonsMetaData
 		};
 		class Item8
 		{
-			className="Virtus_Helmet";
-			name="Virtus_Helmet";
-		};
-		class Item9
-		{
 			className="5r_headgear";
 			name="5r_headgear";
 		};
-		class Item10
+		class Item9
 		{
 			className="UK3CB_BAF_Equipment_Uniforms";
 			name="3CB BAF Equipment - Uniforms";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item11
+		class Item10
 		{
 			className="kat_pharma";
 			name="KAT - KAT - Pharma";
 			author="Katalam";
 			url="https://github.com/KAT-Advanced-Medical/KAM";
 		};
-		class Item12
+		class Item11
 		{
 			className="ace_medical_treatment";
 			name="ACE3 - Medical Treatment";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item13
+		class Item12
 		{
 			className="kat_breathing";
 			name="KAT - KAT - Breathing";
 			author="Katalam";
 			url="https://github.com/KAT-Advanced-Medical/KAM";
 		};
-		class Item14
+		class Item13
 		{
 			className="kat_airway";
 			name="KAT - KAT - Airway";
 			author="Katalam";
 			url="https://github.com/KAT-Advanced-Medical/KAM";
 		};
-		class Item15
+		class Item14
 		{
 			className="cTab";
 			name="cTab";
 			author="cTab";
 		};
-		class Item16
+		class Item15
 		{
-			className="Virtus_1DRS";
-			name="Virtus_1DRS";
+			className="5r_vests";
+			name="5r_vests";
 		};
-		class Item17
+		class Item16
 		{
 			className="ace_captives";
 			name="ACE3 - Captives";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item18
+		class Item17
 		{
 			className="ace_maptools";
 			name="ACE3 - Map Tools";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item19
+		class Item18
 		{
 			className="ace_huntir";
 			name="ACE3 - HuntIR";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item20
+		class Item19
 		{
 			className="ace_trenches";
 			name="ACE3 - Trenches";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item21
+		class Item20
 		{
 			className="UK3CB_BAF_Vehicles_Weapons";
 			name="3CB BAF Vehicles - Weapons";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item22
+		class Item21
 		{
 			className="UK3CB_BAF_Weapons_Ammo";
 			name="3CB BAF Weapons - Ammo";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item23
+		class Item22
 		{
 			className="UK3CB_BAF_Weapons_SmallArms";
 			name="3CB BAF Weapons - Small Arms";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item24
+		class Item23
 		{
 			className="A3_Weapons_F_Mark";
 			name="Arma 3 Marksmen - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item25
+		class Item24
 		{
 			className="krh_addons_equipment";
 			name="krh_addons_equipment";
 		};
-		class Item26
+		class Item25
 		{
 			className="ace_flashlights";
 			name="ACE3 - Flashlights";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item27
-		{
-			className="mpx_Outfits_Vest";
-			name="mpx_Outfits_Vest";
-		};
-		class Item28
+		class Item26
 		{
 			className="ace_arsenal";
 			name="ACE3 - Arsenal";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item29
+		class Item27
 		{
 			className="UK3CB_BAF_Weapons_L131A1";
 			name="3CB BAF Weapons - L131A1";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item30
+		class Item28
 		{
 			className="rhsusf_c_troops";
 			name="RHSUSF Infantry & Equipment";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item31
+		class Item29
 		{
 			className="ace_compat_rhs_usf3";
 			name="ACE3 - RHS USAF Compatibility";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item32
-		{
-			className="ace_compat_rhs_usf3_hearing";
-			name="ace_compat_rhs_usf3_hearing";
-		};
-		class Item33
+		class Item30
 		{
 			className="ace_grenades";
 			name="ACE3 - Grenades";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item34
+		class Item31
 		{
 			className="ace_explosives";
 			name="ACE3 - Explosives";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item35
+		class Item32
 		{
 			className="ace_minedetector";
 			name="ACE3 - Mine Detector";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item36
+		class Item33
 		{
 			className="ace_tagging";
 			name="ACE3 - Tagging";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item37
+		class Item34
 		{
 			className="ace_logistics_wirecutter";
 			name="ACE3 - Logistics Wire Cutter";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item38
+		class Item35
 		{
 			className="rhs_c_weapons";
 			name="AFRF Weapons Pack";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item39
+		class Item36
 		{
 			className="ace_compat_rhs_afrf3_explosives";
 			name="ACE3 - RHS AFRF Compatibility - Explosives";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item40
+		class Item37
 		{
 			className="ace_vector";
 			name="ACE3 - Vector";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item41
+		class Item38
 		{
 			className="ace_attach";
 			name="ACE3 - Attach";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item42
+		class Item39
 		{
 			className="ace_chemlights";
 			name="ACE3 - Chemlights";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item43
+		class Item40
 		{
 			className="ace_microdagr";
 			name="ACE3 - MicroDAGR";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item44
+		class Item41
 		{
 			className="UK3CB_BAF_Weapons_L7";
 			name="3CB BAF Weapons - L7";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item45
+		class Item42
 		{
 			className="ace_hearing";
 			name="ACE3 - Hearing";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item46
+		class Item43
 		{
 			className="ace_field_rations";
 			name="ACE3 - Field Rations";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item47
+		class Item44
 		{
 			className="UK3CB_BAF_Weapons_L129";
 			name="3CB BAF Weapons - L129";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item48
+		class Item45
 		{
 			className="kat_misc";
 			name="KAT - KAT - MISC";
 			author="Katalam";
 			url="https://github.com/KAT-Advanced-Medical/KAM";
 		};
-		class Item49
+		class Item46
 		{
 			className="kat_circulation";
 			name="KAT - KAT - Circulation";
 			author="Katalam";
 			url="https://github.com/KAT-Advanced-Medical/KAM";
 		};
-		class Item50
+		class Item47
 		{
 			className="ace_cargo";
 			name="ACE3 - Cargo";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item51
+		class Item48
 		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item52
+		class Item49
 		{
 			className="A3_Supplies_F_Exp";
 			name="Arma 3 Apex - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item53
+		class Item50
 		{
 			className="ace_dragging";
 			name="ACE3 - Dragging";
@@ -685,7 +668,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="Virtus_C_1";
+								typeName="5r_vests_virtus_B_tbl";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -774,7 +757,7 @@ class Mission
 							watch="ACE_Altimeter";
 							radio="TFAR_anprc152";
 							gps="B_UavTerminal";
-							headgear="VirtusHelmet_1";
+							headgear="5r_headgear_virtus_K";
 						};
 					};
 					id=30;
@@ -968,7 +951,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="Virtus_A_3";
+								typeName="5r_vests_virtus_E";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -1054,7 +1037,7 @@ class Mission
 							compass="ItemCompass";
 							watch="ACE_Altimeter";
 							radio="TFAR_anprc152";
-							headgear="VirtusHelmet_1";
+							headgear="5r_headgear_virtus_K";
 						};
 					};
 					id=31;
@@ -1223,7 +1206,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mpx_virtus4";
+								typeName="5r_vests_virtus_F";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -1256,7 +1239,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mpx_camel2";
+								typeName="5r_backpacks_camel";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -1441,7 +1424,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mpx_virtus4";
+								typeName="5r_vests_virtus_F";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -1688,7 +1671,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mpx_virtus4";
+								typeName="5r_vests_virtus_F";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -1721,7 +1704,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mpx_camel2";
+								typeName="5r_backpacks_camel";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -1896,7 +1879,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mpx_virtus_taco";
+								typeName="5r_vests_virtus_F";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -2128,7 +2111,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mpx_virtus_taco";
+								typeName="5r_vests_virtus_F";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -2174,7 +2157,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mpx_camel2";
+								typeName="5r_backpacks_camel";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -2360,7 +2343,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mpx_virtus4";
+								typeName="5r_vests_virtus_F";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -2408,7 +2391,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mpx_camel2";
+								typeName="5r_backpacks_camel";
 								isBackpack=1;
 							};
 							map="ItemMap";
@@ -2613,7 +2596,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mpx_virtus_ato_p";
+								typeName="5r_vests_virtus_E";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -2699,7 +2682,7 @@ class Mission
 							compass="ItemCompass";
 							watch="ACE_Altimeter";
 							radio="TFAR_anprc152";
-							headgear="VirtusHelmet_1";
+							headgear="5r_headgear_virtus_K";
 						};
 					};
 					id=38;
@@ -2906,7 +2889,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mpx_virtus_ato_p";
+								typeName="5r_vests_virtus_D_tbl";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -2992,7 +2975,7 @@ class Mission
 							compass="ItemCompass";
 							watch="ItemWatch";
 							radio="TFAR_anprc152";
-							headgear="VirtusHelmet_1";
+							headgear="5r_headgear_virtus_K";
 						};
 					};
 					id=39;
@@ -3186,7 +3169,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mpx_virtus_ato_p";
+								typeName="5r_vests_virtus_D_tbl";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -3300,7 +3283,7 @@ class Mission
 							compass="ItemCompass";
 							watch="ItemWatch";
 							radio="TFAR_anprc152";
-							headgear="VirtusHelmet_1";
+							headgear="5r_headgear_virtus_K";
 						};
 					};
 					id=40;
@@ -3469,7 +3452,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mpx_virtus4";
+								typeName="5r_vests_virtus_F";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -3502,7 +3485,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mpx_camel2";
+								typeName="5r_backpacks_camel";
 								isBackpack=1;
 								class ItemCargo
 								{
@@ -3742,7 +3725,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mpx_virtus4";
+								typeName="5r_vests_virtus_F";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -3975,7 +3958,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mpx_virtus4";
+								typeName="5r_vests_virtus_F";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -4217,7 +4200,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="Virtus_A_3";
+								typeName="5r_vests_virtus_A_tbl";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -4350,7 +4333,7 @@ class Mission
 							compass="ItemCompass";
 							watch="ItemWatch";
 							radio="TFAR_anprc152";
-							headgear="VirtusHelmet_1";
+							headgear="5r_headgear_virtus_K";
 						};
 					};
 					id=44;
@@ -4539,7 +4522,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mpx_virtus_admin";
+								typeName="5r_vests_virtus_E";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -4616,7 +4599,7 @@ class Mission
 							compass="ItemCompass";
 							watch="ACE_Altimeter";
 							radio="TFAR_anprc152";
-							headgear="VirtusHelmet_1";
+							headgear="5r_headgear_virtus_K";
 						};
 					};
 					id=45;
@@ -4815,7 +4798,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="Virtus_A_3";
+								typeName="5r_vests_virtus_D_tbl";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -4835,7 +4818,7 @@ class Mission
 									class Item2
 									{
 										name="UK3CB_BAF_762_L42A1_20Rnd_T";
-										count=6;
+										count=5;
 										ammoLeft=20;
 									};
 									class Item3
@@ -4871,20 +4854,14 @@ class Mission
 								isBackpack=1;
 								class MagazineCargo
 								{
-									items=3;
+									items=2;
 									class Item0
 									{
-										name="UK3CB_BAF_762_100Rnd";
-										count=1;
-										ammoLeft=100;
-									};
-									class Item1
-									{
 										name="UK3CB_BAF_762_L42A1_20Rnd_T";
-										count=4;
+										count=5;
 										ammoLeft=20;
 									};
-									class Item2
+									class Item1
 									{
 										name="UK3CB_BAF_762_100Rnd_T";
 										count=1;
@@ -4905,7 +4882,7 @@ class Mission
 							compass="ItemCompass";
 							watch="ACE_Altimeter";
 							radio="TFAR_anprc152";
-							headgear="VirtusHelmet_1";
+							headgear="5r_headgear_virtus_K";
 						};
 					};
 					id=46;
@@ -5054,7 +5031,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="mpx_virtus_Medic_p";
+								typeName="5r_vests_virtus_G";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -5117,7 +5094,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="mpx_daysack7";
+								typeName="5r_backpacks_daysack_m";
 								isBackpack=1;
 								class ItemCargo
 								{
@@ -5223,7 +5200,7 @@ class Mission
 							compass="ItemCompass";
 							watch="ACE_Altimeter";
 							radio="TFAR_anprc152";
-							headgear="VirtusHelmet_1";
+							headgear="5r_headgear_virtus_K";
 						};
 					};
 					id=47;
@@ -5412,7 +5389,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="Virtus_A_3";
+								typeName="5r_vests_virtus_A_tbl";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -5520,7 +5497,7 @@ class Mission
 							compass="ItemCompass";
 							watch="ACE_Altimeter";
 							radio="TFAR_anprc152";
-							headgear="VirtusHelmet_1";
+							headgear="5r_headgear_virtus_K";
 						};
 					};
 					id=48;
@@ -5713,7 +5690,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="Virtus_C_1";
+								typeName="5r_vests_virtus_B_tbl";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -5820,7 +5797,7 @@ class Mission
 							compass="ItemCompass";
 							watch="ACE_Altimeter";
 							radio="TFAR_anprc152";
-							headgear="VirtusHelmet_1";
+							headgear="5r_headgear_virtus_K";
 						};
 					};
 					id=49;
@@ -5983,7 +5960,7 @@ class Mission
 										singleType="ARRAY";
 										class value
 										{
-											items=755;
+											items=714;
 											class Item0
 											{
 												class data
@@ -10453,7 +10430,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UK3CB_BAF_H_Beret_RTR";
+													value="G_Squares_Tinted";
 												};
 											};
 											class Item559
@@ -10461,7 +10438,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UK3CB_BAF_H_Beret_RTR_PRR";
+													value="UK3CB_BAF_G_Tactical_Black";
 												};
 											};
 											class Item560
@@ -10469,7 +10446,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UK3CB_BAF_H_Beret_RTR_PRR_Over";
+													value="UK3CB_BAF_G_Tactical_Clear";
 												};
 											};
 											class Item561
@@ -10477,7 +10454,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="G_Squares_Tinted";
+													value="UK3CB_BAF_G_Tactical_Orange";
 												};
 											};
 											class Item562
@@ -10485,7 +10462,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UK3CB_BAF_G_Tactical_Black";
+													value="UK3CB_BAF_G_Tactical_Yellow";
 												};
 											};
 											class Item563
@@ -10493,7 +10470,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UK3CB_BAF_G_Tactical_Clear";
+													value="UK3CB_BAF_G_Tactical_Grey";
 												};
 											};
 											class Item564
@@ -10501,7 +10478,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UK3CB_BAF_G_Tactical_Orange";
+													value="UK3CB_G_Balaclava2_BLK";
 												};
 											};
 											class Item565
@@ -10509,7 +10486,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UK3CB_BAF_G_Tactical_Yellow";
+													value="UK3CB_G_Balaclava2_DES";
 												};
 											};
 											class Item566
@@ -10517,7 +10494,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UK3CB_BAF_G_Tactical_Grey";
+													value="ACE_Flashlight_XL50";
 												};
 											};
 											class Item567
@@ -10525,7 +10502,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UK3CB_G_Balaclava2_BLK";
+													value="UK3CB_BAF_762_100Rnd_T";
 												};
 											};
 											class Item568
@@ -10533,7 +10510,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UK3CB_G_Balaclava2_DES";
+													value="UK3CB_BAF_762_200Rnd_T";
 												};
 											};
 											class Item569
@@ -10541,7 +10518,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_Flashlight_XL50";
+													value="RKSL_optic_LDS";
 												};
 											};
 											class Item570
@@ -10549,7 +10526,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UK3CB_BAF_762_100Rnd_T";
+													value="RKSL_optic_LDS_C";
 												};
 											};
 											class Item571
@@ -10557,7 +10534,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UK3CB_BAF_762_200Rnd_T";
+													value="UK3CB_BAF_SpecterLDS";
 												};
 											};
 											class Item572
@@ -10565,7 +10542,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="RKSL_optic_LDS";
+													value="5R_Tank_Helmet_21";
 												};
 											};
 											class Item573
@@ -10573,7 +10550,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="RKSL_optic_LDS_C";
+													value="5R_Tank_Helmet_22";
 												};
 											};
 											class Item574
@@ -10581,7 +10558,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UK3CB_BAF_SpecterLDS";
+													value="5R_Tank_Helmet_21_Alt";
 												};
 											};
 											class Item575
@@ -10589,7 +10566,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_21";
+													value="5R_Tank_Helmet_22_Alt";
 												};
 											};
 											class Item576
@@ -10597,7 +10574,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_22";
+													value="5R_Tank_Helmet_21_ESS";
 												};
 											};
 											class Item577
@@ -10605,7 +10582,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_21_Alt";
+													value="5R_Tank_Helmet_22_ESS";
 												};
 											};
 											class Item578
@@ -10613,7 +10590,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_22_Alt";
+													value="5R_Tank_Helmet_21_ARD";
 												};
 											};
 											class Item579
@@ -10621,7 +10598,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_21_ESS";
+													value="5R_Tank_Helmet_22_ARD";
 												};
 											};
 											class Item580
@@ -10629,7 +10606,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_22_ESS";
+													value="5R_Tank_Helmet_21_Alt_ARD";
 												};
 											};
 											class Item581
@@ -10637,7 +10614,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_21_ARD";
+													value="5R_Tank_Helmet_22_Alt_ARD";
 												};
 											};
 											class Item582
@@ -10645,7 +10622,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_22_ARD";
+													value="5R_Tank_Helmet_21_ESS_ARD";
 												};
 											};
 											class Item583
@@ -10653,7 +10630,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_21_Alt_ARD";
+													value="5R_Tank_Helmet_21_ESS_ARD_Clean";
 												};
 											};
 											class Item584
@@ -10661,7 +10638,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_22_Alt_ARD";
+													value="5R_Tank_Helmet_22_ESS_ARD_Clean";
 												};
 											};
 											class Item585
@@ -10669,7 +10646,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_21_ESS_ARD";
+													value="5R_Tank_Helmet_22_ESS_ARD";
 												};
 											};
 											class Item586
@@ -10677,7 +10654,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_21_ESS_ARD_Clean";
+													value="UK3CB_BAF_U_CrewmanCoveralls_RTR";
 												};
 											};
 											class Item587
@@ -10685,7 +10662,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_22_ESS_ARD_Clean";
+													value="5R_Beret_KRH";
 												};
 											};
 											class Item588
@@ -10693,7 +10670,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_22_ESS_ARD";
+													value="5R_Beret_KRH_PRR";
 												};
 											};
 											class Item589
@@ -10701,7 +10678,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UK3CB_BAF_U_CrewmanCoveralls_RTR";
+													value="5R_Beret_KRH_PRR_Over";
 												};
 											};
 											class Item590
@@ -10709,7 +10686,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Beret_KRH";
+													value="5R_Beret_RANGER";
 												};
 											};
 											class Item591
@@ -10717,7 +10694,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Beret_KRH_PRR";
+													value="5R_Beret_RANGER_PRR";
 												};
 											};
 											class Item592
@@ -10725,7 +10702,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Beret_KRH_PRR_Over";
+													value="5R_Beret_RANGER_PRR_Over";
 												};
 											};
 											class Item593
@@ -10733,7 +10710,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Beret_RANGER";
+													value="kat_Caffeine";
 												};
 											};
 											class Item594
@@ -10741,7 +10718,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Beret_RANGER_PRR";
+													value="rhs_mag_m662_red";
 												};
 											};
 											class Item595
@@ -10749,7 +10726,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Beret_RANGER_PRR_Over";
+													value="kat_Bubble_Wrap";
 												};
 											};
 											class Item596
@@ -10757,7 +10734,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="kat_Caffeine";
+													value="rhsusf_acc_ACOG_RMR";
 												};
 											};
 											class Item597
@@ -10765,7 +10742,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="rhs_mag_m662_red";
+													value="rhsusf_acc_ACOG_wd";
 												};
 											};
 											class Item598
@@ -10773,7 +10750,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="kat_Bubble_Wrap";
+													value="rhsusf_acc_ACOG_d";
 												};
 											};
 											class Item599
@@ -10781,7 +10758,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="rhsusf_acc_ACOG_RMR";
+													value="kat_epinephrineIV";
 												};
 											};
 											class Item600
@@ -10789,7 +10766,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="rhsusf_acc_ACOG_wd";
+													value="kat_suction";
 												};
 											};
 											class Item601
@@ -10797,7 +10774,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="rhsusf_acc_ACOG_d";
+													value="kat_Penthrox";
 												};
 											};
 											class Item602
@@ -10805,7 +10782,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="kat_epinephrineIV";
+													value="kat_crossPanel";
 												};
 											};
 											class Item603
@@ -10813,7 +10790,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="kat_suction";
+													value="5R_Tank_Helmet_21_WINT";
 												};
 											};
 											class Item604
@@ -10821,7 +10798,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="kat_Penthrox";
+													value="5R_Tank_Helmet_22_WINT";
 												};
 											};
 											class Item605
@@ -10829,7 +10806,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="kat_crossPanel";
+													value="5R_Tank_Helmet_21_Alt_WINT";
 												};
 											};
 											class Item606
@@ -10837,7 +10814,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_21_WINT";
+													value="5R_Tank_Helmet_22_Alt_WINT";
 												};
 											};
 											class Item607
@@ -10845,7 +10822,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_22_WINT";
+													value="5R_Tank_Helmet_21_ESS_WINT";
 												};
 											};
 											class Item608
@@ -10853,7 +10830,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_21_Alt_WINT";
+													value="5R_Tank_Helmet_22_ESS_WINT";
 												};
 											};
 											class Item609
@@ -10861,7 +10838,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_22_Alt_WINT";
+													value="5r_headgear_virtus_K";
 												};
 											};
 											class Item610
@@ -10869,7 +10846,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_21_ESS_WINT";
+													value="UK3CB_BAF_U_CombatUniform_MTP";
 												};
 											};
 											class Item611
@@ -10877,7 +10854,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_22_ESS_WINT";
+													value="UK3CB_BAF_U_CombatUniform_MTP_ShortSleeve";
 												};
 											};
 											class Item612
@@ -10885,7 +10862,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_boonie";
+													value="5r_backpacks_camel";
 												};
 											};
 											class Item613
@@ -10893,7 +10870,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="VirtusHelmet_1";
+													value="5r_backpacks_daysack";
 												};
 											};
 											class Item614
@@ -10901,7 +10878,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="VirtusHelmet_10";
+													value="B_AssaultPack_mcamo";
 												};
 											};
 											class Item615
@@ -10909,7 +10886,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="VirtusHelmet_12";
+													value="B_Kitbag_mcamo";
 												};
 											};
 											class Item616
@@ -10917,7 +10894,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="VirtusHelmet_13";
+													value="rhsusf_shemagh_gogg_tan";
 												};
 											};
 											class Item617
@@ -10925,7 +10902,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="VirtusHelmet_14";
+													value="rhsusf_shemagh2_gogg_tan";
 												};
 											};
 											class Item618
@@ -10933,7 +10910,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="VirtusHelmet_2";
+													value="rhsusf_ANPVS_14";
 												};
 											};
 											class Item619
@@ -10941,7 +10918,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="VirtusHelmet_15";
+													value="UK3CB_BAF_HMNVS";
 												};
 											};
 											class Item620
@@ -10949,7 +10926,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="VirtusHelmet_4";
+													value="5r_vests_virtus_E";
 												};
 											};
 											class Item621
@@ -10957,7 +10934,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="VirtusHelmet_3";
+													value="5r_vests_virtus_E";
 												};
 											};
 											class Item622
@@ -10965,7 +10942,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="VirtusHelmet_5";
+													value="5r_vests_virtus_E";
 												};
 											};
 											class Item623
@@ -10973,7 +10950,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="VirtusHelmet_6";
+													value="5r_vests_virtus_E";
 												};
 											};
 											class Item624
@@ -10981,7 +10958,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="VirtusHelmet_7";
+													value="5r_vests_virtus_E";
 												};
 											};
 											class Item625
@@ -10989,7 +10966,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="VirtusHelmet_8";
+													value="5r_vests_virtus_E";
 												};
 											};
 											class Item626
@@ -10997,7 +10974,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="VirtusHelmet_9";
+													value="5r_vests_virtus_E";
 												};
 											};
 											class Item627
@@ -11005,7 +10982,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UK3CB_BAF_U_CombatUniform_MTP";
+													value="UK3CB_BAF_H_Beret_AAC";
 												};
 											};
 											class Item628
@@ -11013,7 +10990,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UK3CB_BAF_U_CombatUniform_MTP_ShortSleeve";
+													value="UK3CB_BAF_H_Beret_AAC_PRR";
 												};
 											};
 											class Item629
@@ -11021,7 +10998,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_camel";
+													value="UK3CB_BAF_H_Beret_AAC_Over";
 												};
 											};
 											class Item630
@@ -11029,7 +11006,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_camel2";
+													value="kat_oxygenTank_150_Item";
 												};
 											};
 											class Item631
@@ -11037,7 +11014,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_daysack4";
+													value="kat_oxygenTank_300_Item";
 												};
 											};
 											class Item632
@@ -11045,7 +11022,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_daysack";
+													value="5R_Tank_Helmet_27_ESS_WINT";
 												};
 											};
 											class Item633
@@ -11053,7 +11030,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_daysack2";
+													value="5R_Tank_Helmet_26_ESS_WINT";
 												};
 											};
 											class Item634
@@ -11061,7 +11038,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_daysack3";
+													value="5R_Tank_Helmet_25_ESS_WINT";
 												};
 											};
 											class Item635
@@ -11069,7 +11046,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_daysack9";
+													value="5R_Tank_Helmet_24_ESS_WINT";
 												};
 											};
 											class Item636
@@ -11077,7 +11054,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_daysack8";
+													value="5R_Tank_Helmet_23_ESS_WINT";
 												};
 											};
 											class Item637
@@ -11085,7 +11062,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_daysack10";
+													value="rhsusf_cvc_winter_krh_ess";
 												};
 											};
 											class Item638
@@ -11093,7 +11070,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_daysack5";
+													value="5R_Tank_Helmet_27_Alt_WINT";
 												};
 											};
 											class Item639
@@ -11101,7 +11078,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_daysack7";
+													value="5R_Tank_Helmet_26_Alt_WINT";
 												};
 											};
 											class Item640
@@ -11109,7 +11086,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="B_AssaultPack_mcamo";
+													value="5R_Tank_Helmet_25_Alt_WINT";
 												};
 											};
 											class Item641
@@ -11117,7 +11094,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="B_Kitbag_mcamo";
+													value="5R_Tank_Helmet_24_Alt_WINT";
 												};
 											};
 											class Item642
@@ -11125,7 +11102,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="rhsusf_shemagh_gogg_tan";
+													value="5R_Tank_Helmet_23_Alt_WINT";
 												};
 											};
 											class Item643
@@ -11133,7 +11110,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="rhsusf_shemagh2_gogg_tan";
+													value="rhsusf_cvc_winter_alt_krh_helmet";
 												};
 											};
 											class Item644
@@ -11141,7 +11118,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="rhsusf_ANPVS_14";
+													value="5R_Tank_Helmet_27_WINT";
 												};
 											};
 											class Item645
@@ -11149,7 +11126,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UK3CB_BAF_HMNVS";
+													value="5R_Tank_Helmet_26_WINT";
 												};
 											};
 											class Item646
@@ -11157,7 +11134,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_virtus";
+													value="5R_Tank_Helmet_24_WINT";
 												};
 											};
 											class Item647
@@ -11165,7 +11142,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_virtus_p";
+													value="5R_Tank_Helmet_23_WINT";
 												};
 											};
 											class Item648
@@ -11173,7 +11150,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_virtus2";
+													value="5R_Tank_Helmet_25_WINT";
 												};
 											};
 											class Item649
@@ -11181,7 +11158,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_virtus2_p";
+													value="rhsusf_cvc_winter_krh_helmet";
 												};
 											};
 											class Item650
@@ -11189,7 +11166,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_virtus3";
+													value="5R_Tank_Helmet_27_ESS_ARD_Clean";
 												};
 											};
 											class Item651
@@ -11197,7 +11174,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_virtus3_p";
+													value="5R_Tank_Helmet_27_ESS_ARD";
 												};
 											};
 											class Item652
@@ -11205,7 +11182,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_virtus_admin";
+													value="5R_Tank_Helmet_26_ESS_ARD";
 												};
 											};
 											class Item653
@@ -11213,7 +11190,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_virtus_admin_p";
+													value="5R_Tank_Helmet_26_ESS_ARD_Clean";
 												};
 											};
 											class Item654
@@ -11221,7 +11198,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_virtus_Medic";
+													value="5R_Tank_Helmet_25_ESS_ARD_Clean";
 												};
 											};
 											class Item655
@@ -11229,7 +11206,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_virtus_Medic_p";
+													value="5R_Tank_Helmet_25_ESS_ARD";
 												};
 											};
 											class Item656
@@ -11237,7 +11214,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_virtus_taco";
+													value="5R_Tank_Helmet_24_ESS_ARD";
 												};
 											};
 											class Item657
@@ -11245,7 +11222,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_virtus_taco2";
+													value="5R_Tank_Helmet_24_ESS_ARD_Clean";
 												};
 											};
 											class Item658
@@ -11253,7 +11230,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_virtus_taco2_p";
+													value="5R_Tank_Helmet_23_ESS_ARD_Clean";
 												};
 											};
 											class Item659
@@ -11261,7 +11238,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_virtus_taco_p";
+													value="5R_Tank_Helmet_23_ESS_ARD";
 												};
 											};
 											class Item660
@@ -11269,7 +11246,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_virtus_ato";
+													value="5R_Tank_Helmet_27_Alt_ARD";
 												};
 											};
 											class Item661
@@ -11277,7 +11254,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_virtus_ato_p";
+													value="5R_Tank_Helmet_26_Alt_ARD";
 												};
 											};
 											class Item662
@@ -11285,7 +11262,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_virtus4";
+													value="5R_Tank_Helmet_25_Alt_ARD";
 												};
 											};
 											class Item663
@@ -11293,7 +11270,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mpx_virtus4_p";
+													value="5R_Tank_Helmet_24_Alt_ARD";
 												};
 											};
 											class Item664
@@ -11301,7 +11278,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="Virtus_A_1";
+													value="5R_Tank_Helmet_23_Alt_ARD";
 												};
 											};
 											class Item665
@@ -11309,7 +11286,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="Virtus_A_2";
+													value="5R_Tank_Helmet_27_ARD";
 												};
 											};
 											class Item666
@@ -11317,7 +11294,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="Virtus_A_3";
+													value="5R_Tank_Helmet_26_ARD";
 												};
 											};
 											class Item667
@@ -11325,7 +11302,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="Virtus_A_4";
+													value="5R_Tank_Helmet_25_ARD";
 												};
 											};
 											class Item668
@@ -11333,7 +11310,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="Virtus_D_4";
+													value="5R_Tank_Helmet_24_ARD";
 												};
 											};
 											class Item669
@@ -11341,7 +11318,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="Virtus_D_3";
+													value="5R_Tank_Helmet_23_ARD";
 												};
 											};
 											class Item670
@@ -11349,7 +11326,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="Virtus_D_2";
+													value="5R_Tank_Helmet_27_ESS";
 												};
 											};
 											class Item671
@@ -11357,7 +11334,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="Virtus_D_1";
+													value="5R_Tank_Helmet_26_ESS";
 												};
 											};
 											class Item672
@@ -11365,7 +11342,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="Virtus_C_4";
+													value="5R_Tank_Helmet_25_ESS";
 												};
 											};
 											class Item673
@@ -11373,7 +11350,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="Virtus_C_3";
+													value="5R_Tank_Helmet_24_ESS";
 												};
 											};
 											class Item674
@@ -11381,7 +11358,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="Virtus_C_2";
+													value="5R_Tank_Helmet_23_ESS";
 												};
 											};
 											class Item675
@@ -11389,7 +11366,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="Virtus_C_1";
+													value="5R_Tank_Helmet_27_Alt";
 												};
 											};
 											class Item676
@@ -11397,7 +11374,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="Virtus_B_4";
+													value="5R_Tank_Helmet_26_Alt";
 												};
 											};
 											class Item677
@@ -11405,7 +11382,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="Virtus_B_3";
+													value="5R_Tank_Helmet_25_Alt";
 												};
 											};
 											class Item678
@@ -11413,7 +11390,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="Virtus_B_2";
+													value="5R_Tank_Helmet_24_Alt";
 												};
 											};
 											class Item679
@@ -11421,7 +11398,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="Virtus_B_1";
+													value="5R_Tank_Helmet_23_Alt";
 												};
 											};
 											class Item680
@@ -11429,7 +11406,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UK3CB_BAF_H_Beret_AAC";
+													value="5R_Tank_Helmet_27";
 												};
 											};
 											class Item681
@@ -11437,7 +11414,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UK3CB_BAF_H_Beret_AAC_PRR";
+													value="5R_Tank_Helmet_26";
 												};
 											};
 											class Item682
@@ -11445,7 +11422,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UK3CB_BAF_H_Beret_AAC_Over";
+													value="5R_Tank_Helmet_25";
 												};
 											};
 											class Item683
@@ -11453,7 +11430,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="kat_oxygenTank_150_Item";
+													value="5R_Tank_Helmet_24";
 												};
 											};
 											class Item684
@@ -11461,7 +11438,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="kat_oxygenTank_300_Item";
+													value="5R_Tank_Helmet_23";
 												};
 											};
 											class Item685
@@ -11469,7 +11446,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UK3CB_BAF_H_CrewHelmet_A";
+													value="rhsusf_cvc_green_alt_krh_helmet";
 												};
 											};
 											class Item686
@@ -11477,7 +11454,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UK3CB_BAF_H_CrewHelmet_ESS_A";
+													value="rhsusf_cvc_green_krh_helmet";
 												};
 											};
 											class Item687
@@ -11485,7 +11462,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UK3CB_BAF_H_CrewHelmet_B";
+													value="rhsusf_cvc_green_krh_ess";
 												};
 											};
 											class Item688
@@ -11493,7 +11470,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_27_ESS_WINT";
+													value="rhsusf_cvc_krh_helmet";
 												};
 											};
 											class Item689
@@ -11501,7 +11478,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_26_ESS_WINT";
+													value="rhsusf_cvc_alt_krh_helmet";
 												};
 											};
 											class Item690
@@ -11509,7 +11486,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_25_ESS_WINT";
+													value="rhsusf_cvc_krh_ess";
 												};
 											};
 											class Item691
@@ -11517,7 +11494,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_24_ESS_WINT";
+													value="rhsusf_ihadss";
 												};
 											};
 											class Item692
@@ -11525,7 +11502,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_23_ESS_WINT";
+													value="Tier1_SIG_MCX_115_Virtus";
 												};
 											};
 											class Item693
@@ -11533,7 +11510,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="rhsusf_cvc_winter_krh_ess";
+													value="Tier1_SIG_MCX_115_Virtus_Black";
 												};
 											};
 											class Item694
@@ -11541,7 +11518,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_27_Alt_WINT";
+													value="Tier1_SIG_MCX_115_Virtus_Desert";
 												};
 											};
 											class Item695
@@ -11549,7 +11526,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_26_Alt_WINT";
+													value="Tier1_SIG_MCX_115_Virtus_FDE";
 												};
 											};
 											class Item696
@@ -11557,7 +11534,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_25_Alt_WINT";
+													value="Tier1_SR16_Carbine_Mod2_LMT_Black";
 												};
 											};
 											class Item697
@@ -11565,7 +11542,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_24_Alt_WINT";
+													value="Tier1_SR16_CQB_Mod2_LMT_Black";
 												};
 											};
 											class Item698
@@ -11573,7 +11550,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_23_Alt_WINT";
+													value="Tier1_SR16_CQB_Mod2_LMT_FDE";
 												};
 											};
 											class Item699
@@ -11581,7 +11558,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="rhsusf_cvc_winter_alt_krh_helmet";
+													value="UK3CB_BAF_H_Boonie_MTP";
 												};
 											};
 											class Item700
@@ -11589,7 +11566,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_27_WINT";
+													value="UK3CB_BAF_H_Boonie_MTP_PRR";
 												};
 											};
 											class Item701
@@ -11597,7 +11574,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_26_WINT";
+													value="5r_headgear_virtus_D";
 												};
 											};
 											class Item702
@@ -11605,7 +11582,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_24_WINT";
+													value="5r_headgear_virtus_J";
 												};
 											};
 											class Item703
@@ -11613,7 +11590,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_23_WINT";
+													value="5r_headgear_virtus_I";
 												};
 											};
 											class Item704
@@ -11621,7 +11598,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_25_WINT";
+													value="5r_headgear_virtus_F";
 												};
 											};
 											class Item705
@@ -11629,7 +11606,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="rhsusf_cvc_winter_krh_helmet";
+													value="5r_headgear_virtus_B";
 												};
 											};
 											class Item706
@@ -11637,7 +11614,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_27_ESS_ARD_Clean";
+													value="5r_headgear_virtus_C";
 												};
 											};
 											class Item707
@@ -11645,7 +11622,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_27_ESS_ARD";
+													value="5r_headgear_virtus_H";
 												};
 											};
 											class Item708
@@ -11653,7 +11630,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_26_ESS_ARD";
+													value="5r_headgear_virtus_G";
 												};
 											};
 											class Item709
@@ -11661,7 +11638,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_26_ESS_ARD_Clean";
+													value="5r_headgear_virtus_A";
 												};
 											};
 											class Item710
@@ -11669,7 +11646,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_25_ESS_ARD_Clean";
+													value="5r_headgear_virtus_M";
 												};
 											};
 											class Item711
@@ -11677,7 +11654,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_25_ESS_ARD";
+													value="5r_headgear_virtus_E";
 												};
 											};
 											class Item712
@@ -11685,7 +11662,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_24_ESS_ARD";
+													value="5r_headgear_virtus_L";
 												};
 											};
 											class Item713
@@ -11693,335 +11670,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="5R_Tank_Helmet_24_ESS_ARD_Clean";
-												};
-											};
-											class Item714
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_23_ESS_ARD_Clean";
-												};
-											};
-											class Item715
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_23_ESS_ARD";
-												};
-											};
-											class Item716
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_27_Alt_ARD";
-												};
-											};
-											class Item717
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_26_Alt_ARD";
-												};
-											};
-											class Item718
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_25_Alt_ARD";
-												};
-											};
-											class Item719
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_24_Alt_ARD";
-												};
-											};
-											class Item720
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_23_Alt_ARD";
-												};
-											};
-											class Item721
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_27_ARD";
-												};
-											};
-											class Item722
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_26_ARD";
-												};
-											};
-											class Item723
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_25_ARD";
-												};
-											};
-											class Item724
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_24_ARD";
-												};
-											};
-											class Item725
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_23_ARD";
-												};
-											};
-											class Item726
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_27_ESS";
-												};
-											};
-											class Item727
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_26_ESS";
-												};
-											};
-											class Item728
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_25_ESS";
-												};
-											};
-											class Item729
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_24_ESS";
-												};
-											};
-											class Item730
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_23_ESS";
-												};
-											};
-											class Item731
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_27_Alt";
-												};
-											};
-											class Item732
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_26_Alt";
-												};
-											};
-											class Item733
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_25_Alt";
-												};
-											};
-											class Item734
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_24_Alt";
-												};
-											};
-											class Item735
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_23_Alt";
-												};
-											};
-											class Item736
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_27";
-												};
-											};
-											class Item737
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_26";
-												};
-											};
-											class Item738
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_25";
-												};
-											};
-											class Item739
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_24";
-												};
-											};
-											class Item740
-											{
-												class data
-												{
-													singleType="STRING";
-													value="5R_Tank_Helmet_23";
-												};
-											};
-											class Item741
-											{
-												class data
-												{
-													singleType="STRING";
-													value="rhsusf_cvc_green_alt_krh_helmet";
-												};
-											};
-											class Item742
-											{
-												class data
-												{
-													singleType="STRING";
-													value="rhsusf_cvc_green_krh_helmet";
-												};
-											};
-											class Item743
-											{
-												class data
-												{
-													singleType="STRING";
-													value="rhsusf_cvc_green_krh_ess";
-												};
-											};
-											class Item744
-											{
-												class data
-												{
-													singleType="STRING";
-													value="rhsusf_cvc_krh_helmet";
-												};
-											};
-											class Item745
-											{
-												class data
-												{
-													singleType="STRING";
-													value="rhsusf_cvc_alt_krh_helmet";
-												};
-											};
-											class Item746
-											{
-												class data
-												{
-													singleType="STRING";
-													value="rhsusf_cvc_krh_ess";
-												};
-											};
-											class Item747
-											{
-												class data
-												{
-													singleType="STRING";
-													value="rhsusf_ihadss";
-												};
-											};
-											class Item748
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Tier1_SIG_MCX_115_Virtus";
-												};
-											};
-											class Item749
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Tier1_SIG_MCX_115_Virtus_Black";
-												};
-											};
-											class Item750
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Tier1_SIG_MCX_115_Virtus_Desert";
-												};
-											};
-											class Item751
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Tier1_SIG_MCX_115_Virtus_FDE";
-												};
-											};
-											class Item752
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Tier1_SR16_Carbine_Mod2_LMT_Black";
-												};
-											};
-											class Item753
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Tier1_SR16_CQB_Mod2_LMT_Black";
-												};
-											};
-											class Item754
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Tier1_SR16_CQB_Mod2_LMT_FDE";
+													value="5r_headgear_virtus_N";
 												};
 											};
 										};
@@ -12765,6 +12414,7 @@ class Mission
 				position[]={4338.061,5,6640.061};
 			};
 			title="Custom boxes and vehicle inventories";
+			description="ALL custom boxes and vehicle inventories needs to be in the CrateLayer to be added!" \n "<-----";
 			id=66;
 		};
 	};
