@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=18;
+		nextID=19;
 	};
 	class Camera
 	{
-		pos[]={4347.874,18.868832,6609.8789};
-		dir[]={-0.014665566,-0.59685493,0.80229068};
-		up[]={-0.010910156,0.80232352,0.59678441};
-		aside[]={0.99989021,-4.4974149e-07,0.018273955};
+		pos[]={4354.1665,26.826635,6606.2212};
+		dir[]={-0.0019798831,-0.5973922,0.80202407};
+		up[]={-0.0014759696,0.80192167,0.59742135};
+		aside[]={1.0000552,-4.531239e-07,0.0024650397};
 	};
 };
 binarizationWanted=0;
@@ -5960,7 +5960,7 @@ class Mission
 										singleType="ARRAY";
 										class value
 										{
-											items=714;
+											items=732;
 											class Item0
 											{
 												class data
@@ -11671,6 +11671,150 @@ class Mission
 												{
 													singleType="STRING";
 													value="5r_headgear_virtus_N";
+												};
+											};
+											class Item714
+											{
+												class data
+												{
+													singleType="STRING";
+													value="5r_vests_virtus_G";
+												};
+											};
+											class Item715
+											{
+												class data
+												{
+													singleType="STRING";
+													value="5r_vests_virtus_F";
+												};
+											};
+											class Item716
+											{
+												class data
+												{
+													singleType="STRING";
+													value="5r_vests_virtus_D_np";
+												};
+											};
+											class Item717
+											{
+												class data
+												{
+													singleType="STRING";
+													value="5r_vests_virtus_D";
+												};
+											};
+											class Item718
+											{
+												class data
+												{
+													singleType="STRING";
+													value="5r_vests_virtus_D_tbl_np";
+												};
+											};
+											class Item719
+											{
+												class data
+												{
+													singleType="STRING";
+													value="5r_vests_virtus_D_tbl";
+												};
+											};
+											class Item720
+											{
+												class data
+												{
+													singleType="STRING";
+													value="5r_vests_virtus_C_np";
+												};
+											};
+											class Item721
+											{
+												class data
+												{
+													singleType="STRING";
+													value="5r_vests_virtus_C";
+												};
+											};
+											class Item722
+											{
+												class data
+												{
+													singleType="STRING";
+													value="5r_vests_virtus_C_tbl_np";
+												};
+											};
+											class Item723
+											{
+												class data
+												{
+													singleType="STRING";
+													value="5r_vests_virtus_C_tbl";
+												};
+											};
+											class Item724
+											{
+												class data
+												{
+													singleType="STRING";
+													value="5r_vests_virtus_B_np";
+												};
+											};
+											class Item725
+											{
+												class data
+												{
+													singleType="STRING";
+													value="5r_vests_virtus_B";
+												};
+											};
+											class Item726
+											{
+												class data
+												{
+													singleType="STRING";
+													value="5r_vests_virtus_B_tbl_np";
+												};
+											};
+											class Item727
+											{
+												class data
+												{
+													singleType="STRING";
+													value="5r_vests_virtus_B_tbl";
+												};
+											};
+											class Item728
+											{
+												class data
+												{
+													singleType="STRING";
+													value="5r_vests_virtus_A_np";
+												};
+											};
+											class Item729
+											{
+												class data
+												{
+													singleType="STRING";
+													value="5r_vests_virtus_A";
+												};
+											};
+											class Item730
+											{
+												class data
+												{
+													singleType="STRING";
+													value="5r_vests_virtus_A_tbl";
+												};
+											};
+											class Item731
+											{
+												class data
+												{
+													singleType="STRING";
+													value="5r_vests_virtus_A_tbl_np";
 												};
 											};
 										};
